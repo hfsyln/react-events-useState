@@ -1,13 +1,13 @@
-import Events from "./components/1-events/Events";
-import Counter from "./components/2-classComponent/Counter";
-import UseStateCounter from "./components/3-useStateHook/UseStateCounter";
+import Events from "./components/Events";
+import Counter from "./components/classComponent";
+import UseStateCounter from "./components/useStateHook";
 
 function App() {
   return (
     <div>
-      {/* <Events />
+       <Events />
       <Counter />
-      <Counter count={5} /> */}
+      <Counter count={5} /> 
       <UseStateCounter />
     </div>
   );
